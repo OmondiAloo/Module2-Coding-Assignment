@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Responsive Layout</title>title>
+<title>Our Menu</title>title>
 <style>
 
 
@@ -74,9 +74,9 @@ p{
  }
 }
 
-/****88medium devices only*****/
+/*****medium devices only*****/
 @media(min-width: 768px) and (max-width: 991px){
- 	.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-,..col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,..col-md-11,.col-md-12 {
+ 	.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-,..col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12 {
  		float: left;
  		border: 1px solid green;
  	}
@@ -121,17 +121,21 @@ p{
 </style>
 </head>
 <body>
-	<h1>Responsive Layout</h1>
+	<h1>Our Menu</h1>
 
 	<div class="row">
 		<div class="col-lg-3 col-md-6"><p>Item 1</p></div>
-		<div class="col-lg-3 col-md-6"><p>Item 2 Wow this is cool</p></div>
+		<div class="col-lg-3 col-md-6"><p>Item 2 Chicken</p></div>
 		<div class="col-lg-3 col-md-6"><p>Item 3</p></div>
 		<div class="col-lg-3 col-md-6"><p>Item 4</p></div>
-<div class="col-lg-3 col-md-6"><p>Item 5 This is cool</p></div>
+<div class="col-lg-3 col-md-6"><p>Item 5 Beef</p></div>
 		<div class="col-lg-3 col-md-6"><p>Item 6</p></div>
 		<div class="col-lg-3 col-md-6"><p>Item 7</p></div>
 		<div class="col-lg-3 col-md-6"><p>Item 8</p></div>
+		<div class="col-lg-3 col-md-6"><p>Item 9</p></div>
+		<div class="col-lg-3 col-md-6"><p>Item 10 sushi</p></div>
+		<div class="col-lg-3 col-md-6"><p>Item 11</p></div>
+		<div class="col-lg-3 col-md-6"><p>Item 12</p></div>
 	</div>
 
 </body>
